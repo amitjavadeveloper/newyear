@@ -12,6 +12,8 @@
     color: var(--color-white);
   }
   body {
+    min-height: 100vh;
+    display: flex;
     background: linear-gradient(98.3deg, rgb(0, 0, 0) 10.6%, rgb(255, 0, 0) 97.7%);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -98,6 +100,7 @@
     box-shadow: var(--color-shadow);
   }
   div.img {
+  display: flex;
   position: relative;
   left: 10px;
   border: 5px solid #73AD21;
