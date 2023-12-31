@@ -21,10 +21,12 @@
     background-size: cover;
   }
   .wrapper {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 80%;
-    left: 50%;
+    position: relative;
+    /* transform: translate(-50%, -50%); */
+    /* top: 80%; */
+    /* left: 50%; */
+    position: relative; /* Change to relative */
+    margin: 20px auto; /* Add margin for spacing */
     font-size: 16px;
   }
   .heading {
