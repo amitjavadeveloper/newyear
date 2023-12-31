@@ -118,13 +118,17 @@ div.img img {
   border: 5px solid #73AD21;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
   /* .box { */
     /* width: 100%; */
   /* } */
   .div.img {
     flex-direction: column;
     align-items: center;
+  }
+  div.img img {
+    flex: 1 1 40%; /* Adjust the width of images for smaller screens */
+    max-width: 40%;
   }
 }
 
